@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Form</title>
+  </head>
+  <body class="contact">
+    <div class="contactForm">
+      <h3>Contact Form</h3>
+    </div>
+    <form method="POST" action="https://mailthis.to/nydia1080@yahoo.com">
+      <label for="first-name"
+        ><input
+          id="first-name"
+          name="first-name"
+          type="text"
+          placeholder="First Name"
+          required
+          class="form-control"
+      /></label>
+      <label for="last-name"
+        ><input
+          id="last-name"
+          name="last-name"
+          type="text"
+          placeholder="Last Name"
+          required
+          class="form-control"
+      /></label>
+      <label for="email"
+        ><input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Email Adress"
+          required
+          class="form-control"
+      /></label>
+      <label for="contactForm">
+        <textarea
+          id="Question"
+          name="contactForm"
+          rows="3"
+          cols="30"
+          placeholder="I am listening..."
+          class="form-control"
+        ></textarea>
+        <input class="submit" type="submit" value="Submit"/>
+      </label>
+    </form>
+  </body>
+</html>

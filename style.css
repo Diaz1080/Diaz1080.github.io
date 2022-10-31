@@ -1,0 +1,177 @@
+body {
+  background: url("https://images.unsplash.com/photo-1542159919831-40fb0656b45a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  height: 100vh;
+  margin: 100px;
+  margin-top: 25px;
+}
+
+h1 {
+  color: Black;
+  font-family: Inter;
+  font-style: bold;
+  font-size: 120px;
+  text-align: center;
+  margin-bottom: 0px;
+  top: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+h2 {
+  margin-left: 0;
+}
+
+hr {
+  background-color: white;
+  width: auto;
+  height: 8px;
+  position: center;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+.about,
+h4,
+h3 {
+  color: Black;
+  font-family: Inter;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+
+#in {
+  font-size: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  background-color: #0a0a23;
+  border: 1px solid black;
+  color: orange;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 20%;
+  margin: 1rem left;
+  height: 2em;
+  font-size: 1.1rem;
+  /* background-color: #; */
+  border-color: orange;
+  min-width: 300px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#leftCol,
+#mainCol,
+#rightCol {
+  text-align: center;
+  font-size: 35px;
+  box-shadow: 5px 10px orange;
+  border-radius: 10px;
+  background-color: black;
+  margin: 50px;
+}
+
+a {
+  color: rgb(238, 152, 3);
+  background-color: black;
+}
+
+#in a {
+  color: white;
+  border: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  background-color: blue;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  color: rgb(238, 152, 3);
+  padding: 1px;
+}
+
+#bottom {
+  margin-top: 95px;
+  margin-bottom: 0px;
+}
+
+.contactForm {
+  font-size: 40px;
+  color: rgb(238, 152, 3);
+  text-align: center;
+}
+
+.contactForm h3 {
+  color: rgb(238, 152, 3);
+  font-size: 40px;
+}
+
+label {
+  width: auto;
+  text-align: center;
+}
+
+.contact {
+  background: black;
+}
+.project {
+  background: orange;
+}
+
+#col-4 {
+  margin-right: 0;
+}
+
+ul {
+  font-size: 25px;
+}
+
+/* #btn { 
+  margin-left: 200px;
+}*/
+
+footer {
+  background: black;
+  color: white;
+  padding: 30px;
+}
+
+.nav-link,
+.navbar-brand {
+  color: rgb(238, 152, 3);
+}
+
+.form-control {
+  background-color: black;
+  color: white;
+  width: 50%;
+  /* margin: 0 auto; */
+  display: inline;
+  border-color: rgb(238, 152, 3);
+}
+
+.form-control:focus {
+  background-color: orange;
+}

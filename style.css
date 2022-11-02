@@ -175,3 +175,7 @@ footer {
 .form-control:focus {
   background-color: orange;
 }
+#arrow {
+  justify-content: left;
+  font-size: 50px;
+}

@@ -176,6 +176,7 @@ footer {
   background-color: orange;
 }
 #arrow {
-  justify-content: left;
-  font-size: 50px;
+  font-size: 40px;
+  background-color: orange;
+  border: 0px;
 }
